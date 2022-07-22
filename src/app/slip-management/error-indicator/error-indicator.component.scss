@@ -1,0 +1,28 @@
+.error-indicator {
+  position: fixed;
+  top: 0;
+  right: 100px;
+  display: flex;
+  border: 1px solid lightgray;
+  width: 300px;
+  height: 30px;
+  background-color: whitesmoke;
+}
+
+.error-indicator__index,
+.error-indicator__controls {
+  display: flex;
+  align-items: center;
+}
+
+.error-indicator__index {
+  justify-content: space-between;
+  border-right: 1px solid lightgray;
+  width: 60%;
+  padding: 0 10px;
+}
+
+.error-indicator__controls {
+  justify-content: space-around;
+  width: 40%;
+}

@@ -1,0 +1,11 @@
+<div *ngIf="isShown" class="error-indicator">
+  <div class="error-indicator__index">
+    <span>{{currentRow}}</span>
+    <span>{{currentRowNumber}} / {{invalidRows.length}}</span>
+  </div>
+  <div class="error-indicator__controls">
+    <mat-icon (click)="emitUpClick()">keyboard_arrow_up</mat-icon>
+    <mat-icon (click)="emitDownClick()">keyboard_arrow_down</mat-icon>
+    <mat-icon (click)="emitCloseClick()">close</mat-icon>
+  </div>
+</div>

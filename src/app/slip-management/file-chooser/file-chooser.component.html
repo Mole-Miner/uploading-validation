@@ -1,0 +1,4 @@
+<div (click)="upload.click()" class="file-chooser" appDragDropArea (dragged)="onFilesDragged($event)">
+  <input #upload type="file" (change)="onFilesSelected($event)" class="file-chooser__input">
+  <p>Click to add or drag and drop file</p>
+</div>

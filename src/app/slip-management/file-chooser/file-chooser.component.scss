@@ -1,0 +1,11 @@
+.file-chooser {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background-color: lightgray;
+}
+
+.file-chooser__input {
+  visibility: hidden;
+}
